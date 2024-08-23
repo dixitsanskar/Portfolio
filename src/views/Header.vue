@@ -2,7 +2,7 @@
 <template>
         <header class="d-flex flex-wrap justify-content-between py-3 mb-4">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 link-body-emphasis text-decoration-none">
-        <span class="fs-4 text-[#ffd22f] ">SANSKAR</span>
+        <img class="mt-[-2rem]"src="@/assets/slogo.png" height="105px" width="105px">
       </a>
 
       <ul class="nav nav-pills flex justify-between">
