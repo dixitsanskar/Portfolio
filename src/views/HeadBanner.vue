@@ -59,13 +59,13 @@ import heads from "@/components/Heading.vue"
         <div class="absolute top-[60px] left-0 w-[406px] h-[406px] border-[5px] border-white box-border rounded-[2px]"></div>
       </div>
       </div>
-      <div class="relative flex flex-col  pt-[100px]   text-[#fccc1c]">
+      <div class="relative flex flex-col  pt-[100px]  pl-5 text-[#fccc1c]">
         <div class="relative transform rotate-90 right-7 ">Follow me on:</div>
         <div class="mt-[70px] h-[64.5px] ml-3 border-l border-white box-border"></div>
         <div class="flex flex-column justify-between  mt-5">
-            <img class="overflow-hidden mt-2"  width="24px" alt="" src="@/assets/twitter.svg" />
-        <img class="overflow-hidden mt-2" width="24px" alt="" src=" @/assets/instagram.svg " />
-        <img class="overflow-hidden mt-2" width="24px" alt="" src="@/assets/linkedin.svg "/>
+          <a href="" class="!justify-start"><img class="overflow-hidden mt-2"  width="24px" alt="" src="@/assets/twitter.svg" /></a>
+        <a href="" class="!justify-start"><img class="overflow-hidden mt-2" width="24px" alt="" src=" @/assets/instagram.svg " /></a>
+        <a href="" class="!justify-start"><img class="overflow-hidden mt-2" width="24px" alt="" src="@/assets/linkedin.svg "/></a>
         </div>
 
       </div>
