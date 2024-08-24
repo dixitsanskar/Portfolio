@@ -9,7 +9,7 @@ defineProps({
 </script>
 <template>
     <div class="msgparent">
-    <div class="message border-[.5px] border-[#ffd330] rounded-[50%] h-[42px] w-[99px] flex item-center justify-center align-middle">{{ msg }}</div>
+    <div class="message border-[.5px] border-[#ffd330] rounded-[50%] h-[42px] w-[99px] flex item-center justify-center align-middle py-1.5">{{ msg }}</div>
  
 
     </div>
