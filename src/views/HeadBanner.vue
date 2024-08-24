@@ -44,7 +44,7 @@ import heads from "@/components/Heading.vue"
         </div>
         <div class="relative mt-10  w-[138px] h-[56px] text-center">
           <!-- <img class="absolute top-0 left-0 w-[138px] h-[56px] rounded-lg" alt="" src="Rectangle 2023.svg" /> -->
-          <div class="font-semibold bg-[#ffd330] rounded-[12px] px-2 py-3 leading-[150%]">Contact Me</div>
+          <a class="!justify-start hover:no-underline" href=""><div class="font-semibold bg-[#ffd330] rounded-[12px] px-4 py-3 leading-[150%]">Contact Me</div></a>
         </div>
         </div>
         <!-- <div class="absolute top-0 left-0 w-[99px] h-[42px] text-[20px] text-[#ffd330]">
