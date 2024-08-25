@@ -60,7 +60,7 @@ import heads from "@/components/Heading.vue"
       </div>
       </div>
       <div class="relative flex flex-col  pt-[100px]  pl-5 text-[#fccc1c]">
-        <div class="relative transform rotate-90 right-7 ">Follow me on:</div>
+        <div class="relative transform rotate-90 right-7  ">Follow me on:</div>
         <div class="mt-[70px] h-[64.5px] ml-3 border-l border-white box-border"></div>
         <div class="flex flex-column justify-between  mt-5">
           <a href="" class="!justify-start"><img class="overflow-hidden mt-2"  width="24px" alt="" src="@/assets/twitter.svg" /></a>
