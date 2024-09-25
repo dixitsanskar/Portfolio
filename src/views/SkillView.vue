@@ -4,7 +4,7 @@ import sbox from "@/components/SkillBox.vue"
 </script>
 
 <template>
-    <div class="relative flex flex-col justify-items-center align-middle mt-10  text-left font-inter text-black">
+    <div class="relative flex flex-row justify-items-center align-middle mt-10  text-left font-inter text-black">
       <div class=" flex flex-row">
         <div class="container flex flex-col  pt-[100px]">
             <heads msg="My Skills"/>
@@ -31,21 +31,16 @@ import sbox from "@/components/SkillBox.vue"
        
         
       </div>
-      <div class="flex ">
-        <div>
-          <sbox  heding="Flutter" para=" sdfksdnfjk nfdsjfjnf nfdjsdfn fudf " sr="src/assets/flutter.svg" />
-      <sbox  heding="Flutter" para=" sdfksdnfjk nfdsjfjnf nfdjsdfn fudf " sr="src/assets/flutter.svg" />
-      <sbox  heding="Flutter" para=" sdfksdnfjk nfdsjfjnf nfdjsdfn fudf " sr="src/assets/flutter.svg" />
+      <div class="flex justify-between px-20 pt-28 gap-5 ">
+        <div class="flex flex-col justify-between gap-4  ">
+          <sbox  heding="App Development" para=" sdfksdnfjk nfdsjfjnf nfdjsdfn fudf " sr="src/assets/flutter.svg" />
+      <sbox  heding="CMS" para=" sdfksdnfjk nfdsjfjnf nfdjsdfn fudf " sr="src/assets/flutter.svg" />
         </div>
-        <div class=" flex flex-col justify-items-center">
-          
-      <sbox  heding="Flutter" para=" sdfksdnfjk nfdsjfjnf nfdjsdfn fudf " sr="src/assets/flutter.svg" />
+
+        <div class=" flex flex-col pt-20 ">   
+      <sbox class="" heding="Web Development" para=" sdfksdnfjk nfdsjfjnf nfdjsdfn fudf " sr="src/assets/flutter.svg" />
         </div>
-       <div>
-        <sbox  heding="Flutter" para=" sdfksdnfjk nfdsjfjnf nfdjsdfn fudf " sr="src/assets/flutter.svg" />
-      <sbox  heding="Flutter" para=" sdfksdnfjk nfdsjfjnf nfdjsdfn fudf " sr="src/assets/flutter.svg" />
-      <sbox  heding="Flutter" para=" sdfksdnfjk nfdsjfjnf nfdjsdfn fudf " sr="src/assets/flutter.svg" />
-       </div>
+       
      
       </div>
     </div>

@@ -1,7 +1,7 @@
 <script setup>
 defineProps({
     sr:{
-        type: String,
+        type: Map,
         required: true,
     },
     heding:{
@@ -13,6 +13,8 @@ defineProps({
         required: true,
     }
 })
+
+
 </script>
 
 <template>
