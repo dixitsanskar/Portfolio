@@ -7,6 +7,8 @@ import Hero from './views/Hero.vue'
 import NumSection from '@/views/Number.vue'
 import Skill from './views/SkillView.vue'
 import Project from './views/ProjectView.vue'
+import TestimonialView from './views/TestimonialView.vue'
+import ContactForm from './views/ContactForm.vue'
 </script>
 
 <template>
@@ -15,6 +17,8 @@ import Project from './views/ProjectView.vue'
   <NumSection />
   <Skill />
   <Project/>
+  <TestimonialView/>
+  <ContactForm/>
   <Footer></Footer>
 
 </template>
